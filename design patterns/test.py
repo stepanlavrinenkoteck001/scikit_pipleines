@@ -16,7 +16,7 @@ class carTransmission:  #class with methods and attributes
         return self    
 
     def shift_forward(self, next_gear):  #method
-        self = check_brake_on().engage_clutch()
+        self = self.check_brake_on().engage_clutch()
         self.current_gear = next_gear
         return self
     
