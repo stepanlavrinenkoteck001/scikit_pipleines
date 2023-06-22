@@ -29,5 +29,5 @@ class carTransmission:  #class with methods and attributes
 if __name__ == '__main__':
     # usage
     # initialize class
-    mytransmission = carTransmission(2)
+    mytransmission = carTransmission(1)
     mytransmission.shift_forward(3).check_maintenance_needed()
